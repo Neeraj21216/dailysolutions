@@ -11,6 +11,8 @@ class Solution {
     string countAndSay(int n) {
         // code here
        string ans="1";
+       //tc->o(n^2);
+       //sc-o(1)
        for(int i=1;i<n;i++){
            string curr="";
            int count=1;

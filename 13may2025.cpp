@@ -6,6 +6,9 @@ class Solution {
             for(auto i:s){
                 freq[i-'a']++;
             }
+            //t.c->0(n*26);
+            //s.c->o(1);
+
            int mod=1e9+7;
             while(t--){
               
